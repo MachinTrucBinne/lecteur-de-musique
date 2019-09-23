@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0580166F1F1FC37000AFB446 /* afplay.command in Resources */ = {isa = PBXBuildFile; fileRef = 0580166E1F1FC37000AFB446 /* afplay.command */; };
+		059ED4AA1F1D798500D4EA10 /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F8AE451F1D4B4D003D24BD /* SDL2_ttf.framework */; };
+		059ED4AB1F1D798500D4EA10 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F8AE461F1D4B4D003D24BD /* SDL2.framework */; };
+		05F8AE2D1F1D4571003D24BD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05F8AE2C1F1D4571003D24BD /* main.cpp */; };
+		05F8AE421F1D48FE003D24BD /* fontes in Resources */ = {isa = PBXBuildFile; fileRef = 05F8AE411F1D48FE003D24BD /* fontes */; };
+		05F8AE491F1D4B5D003D24BD /* SDL2_ttf.framework in Resources */ = {isa = PBXBuildFile; fileRef = 05F8AE451F1D4B4D003D24BD /* SDL2_ttf.framework */; };
+		05F8AE4A1F1D4B5D003D24BD /* SDL2.framework in Resources */ = {isa = PBXBuildFile; fileRef = 05F8AE461F1D4B4D003D24BD /* SDL2.framework */; };
+		05F8AE4E1F1D50C6003D24BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F8AE4D1F1D50C6003D24BD /* Images.xcassets */; };
+		05FC31601F1FE9140081FAFB /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FC315F1F1FE9140081FAFB /* libavformat.a */; };
+		05FC316E1F1FF1910081FAFB /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FC316D1F1FF1910081FAFB /* libavcodec.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0580166E1F1FC37000AFB446 /* afplay.command */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = afplay.command; sourceTree = "<group>"; };
+		05F8AE251F1D4571003D24BD /* Musique.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musique.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F8AE2C1F1D4571003D24BD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		05F8AE361F1D4571003D24BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F8AE411F1D48FE003D24BD /* fontes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fontes; sourceTree = "<group>"; };
+		05F8AE451F1D4B4D003D24BD /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_ttf.framework; path = ../../../../../../../../../../Library/Frameworks/SDL2_ttf.framework; sourceTree = "<group>"; };
+		05F8AE461F1D4B4D003D24BD /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		05F8AE4D1F1D50C6003D24BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05FC315F1F1FE9140081FAFB /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = ../../../../../../../../../../usr/local/lib/libavformat.a; sourceTree = "<group>"; };
+		05FC316D1F1FF1910081FAFB /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = ../../../../../../../../../../usr/local/lib/libavcodec.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05F8AE221F1D4571003D24BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059ED4AA1F1D798500D4EA10 /* SDL2_ttf.framework in Frameworks */,
+				059ED4AB1F1D798500D4EA10 /* SDL2.framework in Frameworks */,
+				05FC316E1F1FF1910081FAFB /* libavcodec.a in Frameworks */,
+				05FC31601F1FE9140081FAFB /* libavformat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F8AE1C1F1D4571003D24BD = {
+			isa = PBXGroup;
+			children = (
+				05F8AE271F1D4571003D24BD /* Musique */,
+				05F8AE261F1D4571003D24BD /* Products */,
+				05F8AE3C1F1D46D3003D24BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		05F8AE261F1D4571003D24BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05F8AE251F1D4571003D24BD /* Musique.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05F8AE271F1D4571003D24BD /* Musique */ = {
+			isa = PBXGroup;
+			children = (
+				05F8AE361F1D4571003D24BD /* Info.plist */,
+				05F8AE4D1F1D50C6003D24BD /* Images.xcassets */,
+				05F8AE2B1F1D4571003D24BD /* Supporting Files */,
+			);
+			path = Musique;
+			sourceTree = "<group>";
+		};
+		05F8AE2B1F1D4571003D24BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05F8AE2C1F1D4571003D24BD /* main.cpp */,
+				0580166E1F1FC37000AFB446 /* afplay.command */,
+				05F8AE411F1D48FE003D24BD /* fontes */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05F8AE3C1F1D46D3003D24BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05FC316D1F1FF1910081FAFB /* libavcodec.a */,
+				05FC315F1F1FE9140081FAFB /* libavformat.a */,
+				05F8AE451F1D4B4D003D24BD /* SDL2_ttf.framework */,
+				05F8AE461F1D4B4D003D24BD /* SDL2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05F8AE241F1D4571003D24BD /* Musique */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F8AE391F1D4571003D24BD /* Build configuration list for PBXNativeTarget "Musique" */;
+			buildPhases = (
+				05F8AE211F1D4571003D24BD /* Sources */,
+				05F8AE221F1D4571003D24BD /* Frameworks */,
+				05F8AE231F1D4571003D24BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Musique;
+			productName = Musique;
+			productReference = 05F8AE251F1D4571003D24BD /* Musique.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05F8AE1D1F1D4571003D24BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Noé Aubin-Cadot";
+				TargetAttributes = {
+					05F8AE241F1D4571003D24BD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = P57EPN6TRF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 05F8AE201F1D4571003D24BD /* Build configuration list for PBXProject "Musique" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05F8AE1C1F1D4571003D24BD;
+			productRefGroup = 05F8AE261F1D4571003D24BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05F8AE241F1D4571003D24BD /* Musique */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05F8AE231F1D4571003D24BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F8AE4E1F1D50C6003D24BD /* Images.xcassets in Resources */,
+				05F8AE491F1D4B5D003D24BD /* SDL2_ttf.framework in Resources */,
+				0580166F1F1FC37000AFB446 /* afplay.command in Resources */,
+				05F8AE4A1F1D4B5D003D24BD /* SDL2.framework in Resources */,
+				05F8AE421F1D48FE003D24BD /* fontes in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05F8AE211F1D4571003D24BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F8AE2D1F1D4571003D24BD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		05F8AE371F1D4571003D24BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		05F8AE381F1D4571003D24BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		05F8AE3A1F1D4571003D24BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P57EPN6TRF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				INFOPLIST_FILE = Musique/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/include;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-I/usr/local/include",
+					"-L/usr/local/lib",
+					"-lavformat",
+				);
+				OTHER_LDFLAGS = (
+					"-I/usr/local/include",
+					"-L/usr/local/lib",
+					"-lavformat",
+				);
+				OTHER_LIBTOOLFLAGS = "-I/usr/local/include -L/usr/local/lib -lavformat";
+				PRODUCT_BUNDLE_IDENTIFIER = MachinChose.Musique;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		05F8AE3B1F1D4571003D24BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P57EPN6TRF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				INFOPLIST_FILE = Musique/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/include;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-I/usr/local/include",
+					"-L/usr/local/lib",
+					"-lavformat",
+				);
+				OTHER_LDFLAGS = (
+					"-I/usr/local/include",
+					"-L/usr/local/lib",
+					"-lavformat",
+				);
+				OTHER_LIBTOOLFLAGS = "-I/usr/local/include -L/usr/local/lib -lavformat";
+				PRODUCT_BUNDLE_IDENTIFIER = MachinChose.Musique;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05F8AE201F1D4571003D24BD /* Build configuration list for PBXProject "Musique" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F8AE371F1D4571003D24BD /* Debug */,
+				05F8AE381F1D4571003D24BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F8AE391F1D4571003D24BD /* Build configuration list for PBXNativeTarget "Musique" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F8AE3A1F1D4571003D24BD /* Debug */,
+				05F8AE3B1F1D4571003D24BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05F8AE1D1F1D4571003D24BD /* Project object */;
+}
