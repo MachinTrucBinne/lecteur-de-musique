@@ -105,6 +105,7 @@ AUSSI :
 
 • La manière de faire jouer la musique est un peu maladroite. Le programme invoque un fichier "afplay.command" qui lui va invoquer afplay. Dans une ancienne version plus propre j'utilisais SDL2_mixer, mais il ne gère pas les mp3, alors qu'afplay oui. Aussi, le code pourrait appeler directement afplay sans passer par un fichier .command, mais alors il faudrait que le code continue de rouler sans attendre qu'afplay "termine" son processus.
 • L'avantage de la version application est qu'il n'y a pas toujours un terminal d'ouvert en arrière plan.
+• Il faut probablement refaire le fichier afplay.command par l'utilisateur car comme ça vient d'internet macOS donne une erreur "sh: ./afplay.command: Permission denied".
 
 ENFIN :
 
