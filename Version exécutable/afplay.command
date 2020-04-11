@@ -2,6 +2,4 @@
 
 chanson="$1"
 
-ls > ~/desktop/fichier.txt
-
 afplay "$chanson"
